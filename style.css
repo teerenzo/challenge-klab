@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.statistic-container{
+    background-color: #4A63E7;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.form-container{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.statistic{
+    background-color: white;
+    opacity: .8;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 90%;
+   height: 80%;
+   /* margin: 20px; */
+   /* padding: 30px; */
+
+}
+.body{
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 50%;
+}
+.general h3{
+    padding: 20px;
+}
+.hr-bg .card{
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px 2px #c9cbd4;
+    /* flex-direction: column; */
+}
+.hr-bg .card .icon{
+    width: 20px;
+    height: 20px;
+    background: #4A63E7;
+    border-radius: 50px;
+}
+
+
+.form{
+    background-color: white;
+    opacity: .8;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 90%;
+   height: 80%;  
+}
+
+.static-card{
+    border-radius: 12px;
+    padding: 30px 20px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px #c9cbd4;
+
+}
+.statistic{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 10px;
+}
+.footer{
+    padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+}
+.div-select{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.div-selected{
+    width: 100px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #4A63E7;
+}
+
+.div-unselected{
+    width: 100px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #c9cbd4;
+}
