@@ -27,7 +27,9 @@
     align-items: center;
 }
 .statistic{
-    background-color: white;
+    display: flex;
+     align-items: center;
+    background-color: rgb(229, 221, 221);;
     opacity: .8;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
@@ -74,17 +76,18 @@
 }
 
 
-.form{
-    background-color: white;
+.form-container .form{
+    background-color: rgb(229, 221, 221);
     opacity: .8;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 90%;
-   height: 80%;  
+
+    width: 50%;
+   height: 70%;  
+   padding: 0px 20px;
 }
 
 .static-card{
     border-radius: 12px;
+    width: 100%;
     padding: 30px 20px;
     background-color: white;
     box-shadow: 1px 1px 2px 2px #c9cbd4;
@@ -123,12 +126,17 @@
     background-color: #c9cbd4;
 }
 
-.form {
-    width: 60%;
-    border-radius: 5px;
+.contactForm {
+    display: flex;
+  justify-content: center;
+    width: 90%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border-radius: 5px; */
     background-color:#e6eeff;
-    padding: 20px;
-    margin: 100px;
+    padding: 10px;
+    
+ 
 }
 input[type=text]{
     width: 100%;
